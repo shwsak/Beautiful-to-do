@@ -7,6 +7,7 @@ import {
   PointerSensor,
   useSensor,
   useSensors,
+  TouchSensor
 } from '@dnd-kit/core';
 import {
   arrayMove,
@@ -52,6 +53,11 @@ function App() {
         distance: 8,
       },
     }),
+    useSensor(TouchSensor, {
+      activationConstraint: {
+        distance: 8,
+      },
+    })
   );
   function handleDragEnd(event) {
     const { active, over } = event;
