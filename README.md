@@ -1,16 +1,14 @@
-# React + Vite
+# Beautiful To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Made with ReactJs
 
-Currently, two official plugins are available:
+### 🏃‍♀️ Steps to run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Install dependencides : `npm install`
+2. Run application : `npm run dev`
+3. Visit the link shown in the terminal: `https://localhost:5173`
 
 
-1. Loader 
-2. Mobile Responsive 
-3. Drag and droper 
-4. Footer made by Shweta Sakshi 
-5. Github and then host on vercel 
+### ☁️ Deployed Version
 
+#### [🔗 Open Live Demo](https://beautiful-to-do-theta.vercel.app)
