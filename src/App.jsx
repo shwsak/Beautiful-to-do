@@ -28,7 +28,7 @@ function App() {
 
   const dateTarget = new Date();
   const formatDate = dateTarget.toLocaleDateString('en-US', { year: "numeric", month: "short", day: "numeric" })
-  const baseURL = "http://demo8641672.mockable.io"
+  const baseURL = "https://demo8641672.mockable.io"
   useEffect(() => {
     const api = `${baseURL}/todo`;
     setIsLoading(true)
